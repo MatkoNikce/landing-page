@@ -1,0 +1,93 @@
+/*navbar*/
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+a{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px;
+}
+
+a:hover{
+    background-color: antiquewhite;
+    color: #1F2937
+}
+/*hero*/
+#hero{
+    color: white; 
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    max-width: 900px;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    max-width: 400px;
+}
+
+#hero2{
+    background-color: #1F2937;
+}
+.hero-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/*information*/
+#information{
+    color: #1F2937;
+}
+
+#information-header{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+img{
+    width: 200px;
+    margin: 10px;
+}
+/*quote*/
+#quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+}
+
+#quote-message{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+/*call to action*/
+#action-message{
+    background-color: #3882f6;
+    color: white;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border-color: #3882f6;
+    border-radius: 12%;
+    box-shadow: none;
+    padding: 2px 15px;
+}
+
+/*footer*/
+#footer{
+    background-color: #1F2937;
+    color: white;
+}
