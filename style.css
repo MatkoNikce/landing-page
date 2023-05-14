@@ -76,16 +76,37 @@ img{
     
 }
 /*quote*/
-#quote {
-    background-color: #e5e7eb;
+#box-quote{
+   display: flex; 
+   justify-content: center;
+   background-color: #e5e7eb;
+}
+
+#quote{
+   
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 auto;
+    align-items: center;
+    
 }
 
 #quote-message{
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 1;
+    max-width: 500px;
+
 }
+
+#quote-name{
+    font-weight: bolder;
+    align-self: self-end;
+    
+}
+
 /*call to action*/
 #action-message{
     background-color: #3882f6;
