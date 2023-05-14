@@ -108,9 +108,20 @@ img{
 }
 
 /*call to action*/
+#box-message{
+    display: flex; 
+   justify-content: center;
+}
+
 #action-message{
     background-color: #3882f6;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    justify-content: space-around;
+    width: 900px;
 }
 
 button{
@@ -126,4 +137,9 @@ button{
 #footer{
     background-color: #1F2937;
     color: white;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
