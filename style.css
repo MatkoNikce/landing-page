@@ -60,17 +60,20 @@ h1{
 }
 
 #information-images{
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 #individual-images{
-  max-width: 300px;
+  max-width: 200px;
+  flex: 0 auto;
 }
+
 img{
     width: 200px;
-    margin: 10px;
+    
 }
 /*quote*/
 #quote {
